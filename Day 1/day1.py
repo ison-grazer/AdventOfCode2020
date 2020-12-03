@@ -1,6 +1,14 @@
 path_name = 'Day1.txt'
 
+'''
+#Part 1
+def get_number(lst):
+    for i in lst:
+        for j in lst:
+                if i+j == 2020:
+                    return i * j'''
 
+#Part 2, high complexity
 def get_number(lst):
     for i in lst:
         for j in lst:
